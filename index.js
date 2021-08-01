@@ -42,9 +42,20 @@ colors.splice(1,0,"red");
 console.log(colors);
 //prints:yellow,red,blue
 
+//concat
+var a=["orange","black"];
+var b=["merun","white"];
+var c=a.concat(b);
+var c=b.concat(a);
+console.log(c);
+
+//reversing an element
+colors.reverse();
+console.log(colors);
 
 //iterating over an array
 var animals =["tiger","lion","leopard","bear","dog","cat","bull","elephant","horse","girrafe"];
 for(var i=0;i<=animals.length -1; i++){
     console.log(animals[i])
 }
+
